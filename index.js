@@ -22,5 +22,6 @@ passport.use(new GoogleStrategy({
   callbackURL: userDets.URI
 },
   (accessToken, refreshToken, profile, done) => {
-    return done(null, profile)
+    console.log(profile)
+    
   }))
