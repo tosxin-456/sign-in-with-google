@@ -7,4 +7,5 @@ const ine = 87
 
 const twe = 33
 
+
 console.log(simpMaths.addition(ine,twe))
